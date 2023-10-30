@@ -62,7 +62,8 @@ python manage.py runserver
 <p align="center">
   Feed Home
 </p>
-<img src="https://github.com/sunilgiri7/Techies/blob/main/preview/feed.png">
+<!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/feed.png"> -->
+  ![feed](https://github.com/sunilgiri7/Techies/assets/106025724/687f1033-d0c8-44e9-a906-50e09c4fda06)
 </td> 
 <td width="50%">
 <br>
