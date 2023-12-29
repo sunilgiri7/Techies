@@ -1,5 +1,5 @@
 <div align="center">
-# Techies
+  # Techies
 </div>
 
 ### Cloning the repository
@@ -62,23 +62,14 @@ python manage.py runserver
 <p align="center">
   Feed Home
 </p>
+  
 <!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/feed.png"> -->
-  ![feed](https://github.com/sunilgiri7/Techies/assets/106025724/687f1033-d0c8-44e9-a906-50e09c4fda06)
-</td> 
-<td width="50%">
-<br>
-<p align="center">
-  Room Conversation Preview
-</p>
-<!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/room.png">   -->
-  ![room](https://github.com/sunilgiri7/Techies/assets/106025724/907e8116-deaa-42ec-85db-807cf9ffa893)
-</td>
-<td width="50%">
-<br>
-<p align="center">
-  signIn Preview
-</p>
-<!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/signIn.png">   -->
-  ![signIn](https://github.com/sunilgiri7/Techies/assets/106025724/9f0eebe1-f313-4cf4-9e61-8144cd271fb1)
-</td>
+![feed](https://github.com/sunilgiri7/Techies/blob/main/preview/feed.png)
+
+<!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/room.png"> -->
+![room](https://github.com/sunilgiri7/Techies/blob/main/preview/room.png)
+
+<!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/signIn.png"> -->
+![signIn](https://github.com/sunilgiri7/Techies/blob/main/preview/signIn.png)
+
 </table>
