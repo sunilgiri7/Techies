@@ -64,12 +64,14 @@ python manage.py runserver
 </p>
   
 <!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/feed.png"> -->
-![feed](https://github.com/sunilgiri7/Techies/blob/main/preview/feed.png)
+![feed](https://github.com/sunilgiri7/Techies/blob/main/preview/feed-new.png)
 
 <!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/room.png"> -->
-![room](https://github.com/sunilgiri7/Techies/blob/main/preview/room.png)
+![AI Assistance](https://github.com/sunilgiri7/Techies/blob/main/preview/AI.png)
 
 <!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/signIn.png"> -->
-![signIn](https://github.com/sunilgiri7/Techies/blob/main/preview/signIn.png)
+![Login](https://github.com/sunilgiri7/Techies/blob/main/preview/login-new.png)
 
+<!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/signIn.png"> -->
+![Room](https://github.com/sunilgiri7/Techies/blob/main/preview/room-new.png)
 </table>
