@@ -74,4 +74,7 @@ python manage.py runserver
 
 <!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/signIn.png"> -->
 ![Room](https://github.com/sunilgiri7/Techies/blob/main/preview/room-new.png)
+
+<!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/signIn.png"> -->
+![Room](https://github.com/sunilgiri7/Techies/blob/main/preview/profile.png)
 </table>
