@@ -15,4 +15,6 @@ urlpatterns = [
     path('update-user/', views.updateUser, name="update-user"),
     path('topics/', views.topicPage, name="topics"),
     path('activity/', views.activityPage, name="activity"),
+    path('generative-model/', views.pred, name="generative-model"),
+    path('generative-model/result', views.generative_model_view)
 ]

@@ -8,7 +8,6 @@ class MyUserCreationForm(UserCreationForm):
         model = User
         fields = ['name', 'username', 'email', 'password1', 'password2']
 
-
 class RoomForm(ModelForm):
     class Meta:
         model = Room
@@ -21,3 +20,9 @@ class UserForm(ModelForm):
         model = User
         fields = ['avatar', 'name', 'username', 'email', 'bio']
 
+# forms.py
+from django import forms
+
+class GeminiForm(forms.Form):
+    input_text = forms.CharField(required=False)
+    image_file = forms.ImageField()

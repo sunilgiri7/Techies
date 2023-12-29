@@ -9,7 +9,18 @@ from django.http import HttpResponse
 from django.contrib.auth import authenticate, login, logout
 # from django.contrib.auth.forms import UserCreationForm
 
-# Create your views here.
+import streamlit as st
+import os
+from dotenv import load_dotenv
+import google.generativeai as genai
+from PIL import Image
+
+# Load environment variables securely
+load_dotenv()
+
+# Configure Gemini API key
+genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
+
 
 def loginPage(request):
     page = 'login'
@@ -60,7 +71,7 @@ def home(request):
     topics = Topic.objects.all()[0:5]
     room_count = rooms.count()
     room_messages = Message.objects.filter(Q(room__topic__name__icontains=q))
-    context = {'rooms': rooms, 'topics': topics, 
+    context = {'rooms': rooms, 'topics': topics,
                'room_count': room_count, 'room_messages': room_messages}
     return render(request, 'base/home.html', context)
 
@@ -171,3 +182,25 @@ def topicPage(request):
 def activityPage(request):
     room_messages = Message.objects.all()
     return render(request, 'base/activity.html', {'room_messages': room_messages})
+
+def pred(request):
+    return render(request, 'base/generative_model.html')
+
+def generative_model_view(request):
+    model = genai.GenerativeModel("gemini-pro-vision")
+    input_text = request.POST.get('input')
+    image_file = request.FILES.get('file')
+    print("Input text", input_text)
+    print("Image file", image_file)
+
+    if image_file is not None:
+        image = Image.open(image_file)
+        if input_text:
+            response = model.generate_content([input_text, image])
+        else:
+            response = model.generate_content(image)
+        # print("Response", response.text)
+        return render(request, 'base/generative_model.html', {'result2': response.text})
+    else:
+        return render(request, 'base/generative_model.html', {'error': 'Image file is required'})
+

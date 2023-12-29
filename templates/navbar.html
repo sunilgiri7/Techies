@@ -16,6 +16,10 @@
           <input name="q" placeholder="Search for rooms..." />
         </label>
       </form>
+
+      {% comment %} {% url 'generative-model' %} {% endcomment %}
+      <a href="{% url 'generative-model' %}" class="nav-link">Use Generative Model</a>
+
       <nav class="header__menu">
 
         <!-- Logged In -->
@@ -40,7 +44,7 @@
           <img src="{% static 'images/avatar.svg' %}" />
           <p>Login</p>
         </a>
-
+        
         {% endif %}
         <div class="dropdown-menu">
           <a href="{% url 'update-user' %}" class="dropdown-link"
