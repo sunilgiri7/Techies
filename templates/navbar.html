@@ -1,10 +1,29 @@
 {% load static %}
+<style>
+  /* Add this style to enhance the button appearance */
+  #generative-model-button {
+    display: inline-block;
+    padding: 11px 16px; /* Adjusted padding for a more compact size */
+    background-color: #3498db; /* Use your preferred background color */
+    color: #ffffff; /* Use a contrasting text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px; /* Slightly reduced border-radius */
+    font-size: 14px; /* Slightly reduced font size */
+    transition: background-color 0.3s ease;
+  }
+
+  #generative-model-button:hover {
+    background-color: #2980b9; /* Change color on hover */
+  }
+</style>
 <header class="header header--loggedIn">
     <div class="container">
       <a href="{% url 'home' %}" class="header__logo">
         <img src="{% static 'images/logo.svg' %}" />
         <h1>Techies</h1>
       </a>
+      <a href="{% url 'generative-model' %}" class="nav-link" id="generative-model-button">AI Assistance</a>
       <form class="header__search" method="GET" action="{% url 'home' %}">
         <label>
           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
@@ -16,9 +35,6 @@
           <input name="q" placeholder="Search for rooms..." />
         </label>
       </form>
-
-      {% comment %} {% url 'generative-model' %} {% endcomment %}
-      <a href="{% url 'generative-model' %}" class="nav-link">Use Generative Model</a>
 
       <nav class="header__menu">
 
