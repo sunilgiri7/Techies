@@ -70,7 +70,7 @@ python manage.py runserver
 ![AI Assistance](https://github.com/sunilgiri7/Techies/blob/main/preview/AI.png)
 
 <!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/signIn.png"> -->
-![signIn](https://github.com/sunilgiri7/Techies/blob/main/preview/AI.png)
+![Login](https://github.com/sunilgiri7/Techies/blob/main/preview/login-new.png)
 
 <!-- <img src="https://github.com/sunilgiri7/Techies/blob/main/preview/signIn.png"> -->
 ![Room](https://github.com/sunilgiri7/Techies/blob/main/preview/room-new.png)
