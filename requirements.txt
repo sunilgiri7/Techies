@@ -113,7 +113,7 @@ mss==9.0.1
 murmurhash==1.0.9
 mypy-extensions==1.0.0
 mysql-connector-python==8.2.0
-mysqlclient==2.1.1
+mysqlclient==2.1.0
 networkx==3.1
 ninja==1.11.1.1
 nltk==3.8.1
