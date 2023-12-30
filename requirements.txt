@@ -61,7 +61,7 @@ debugpy @ file:///C:/b/abs_c0y1fjipt2/croot/debugpy_1690906864587/work
 decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 distlib==0.3.6
-Django==3.2.10
+django==3.2.10
 django-allauth==0.54.0
 django-bootstrap4==23.1
 django-cors-headers==4.3.0
