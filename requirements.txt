@@ -1,4 +1,3 @@
-absl-py @ file:///C:/b/abs_d3cv5rzljl/croot/absl-py_1686852506854/work
 aiobotocore==2.7.0
 aiofiles @ file:///C:/b/abs_9ex6mi6b56/croot/aiofiles_1683773603390/work
 aiohttp==3.8.4
