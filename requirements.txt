@@ -121,8 +121,7 @@ nltk==3.8.1
 nomkl==0.0.3
 numexpr==2.8.4
 omegaconf==2.3.0
-onnx==1.13.
-pymysql==1.0.2
+onnx==1.13.1
 onnxconverter-common==1.13.0
 onnxruntime==1.14.1
 openai==0.27.8
@@ -162,7 +161,7 @@ PyGetWindow==0.0.9
 PyMeeus==0.5.12
 Pympler==1.0.1
 PyMsgBox==1.0.9
-PyMySQL==1.1.0
+PyMySQL==1.0.2
 pyparsing==3.0.9
 pyperclip==1.8.2
 PyQt5==5.15.10
