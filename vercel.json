@@ -2,16 +2,7 @@
     "builds": [{
         "src": "studygate/wsgi.py",
         "use": "@vercel/python",
-        "config": {
-            "maxLambdaSize": "15mb",
-            "runtime": "python3.9",
-            "entrypoint": "studygate/wsgi.py",
-            "functions": {
-                "api": {
-                    "includeFiles": ["/vercel/path0/requirements.txt"]
-                }
-            }
-        }
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }],
     "routes": [
         {
