@@ -121,7 +121,8 @@ nltk==3.8.1
 nomkl==0.0.3
 numexpr==2.8.4
 omegaconf==2.3.0
-onnx==1.13.1
+onnx==1.13.
+pymysql==1.0.2
 onnxconverter-common==1.13.0
 onnxruntime==1.14.1
 openai==0.27.8
