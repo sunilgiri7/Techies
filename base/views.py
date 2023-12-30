@@ -8,8 +8,6 @@ from django.contrib import messages
 from django.http import HttpResponse
 from django.contrib.auth import authenticate, login, logout
 # from django.contrib.auth.forms import UserCreationForm
-
-import streamlit as st
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
