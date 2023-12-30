@@ -1,22 +1,27 @@
 {
-    "builds": [{
-        "src": "studygate/wsgi.py",
-        "use": "@vercel/python",
-        "config": {
-            "maxLambdaSize": "15mb",
-            "runtime": "python3.9",
-            "entrypoint": "studygate/wsgi.py",
-            "functions": {
-                "api": {
-                    "includeFiles": ["/vercel/path0/requirements.txt"]
-                }
+    "version": 2,
+    "builds":[
+        {
+            "src": "poll/wsgi.py",
+            "use": "@vercel/python",
+            "config": { "maxLambdaSize": "15mb", "runtime": "python3.9"}
+        },
+        {
+            "src": "build_files.sh",
+            "use": "@vercel/static-build",
+            "config": {
+                    "distDir": "staticfiles_build"
             }
         }
-    }],
+    ],
     "routes": [
         {
+            "src": "/static/(.*)",
+            "dest": "/static/$1"
+        },
+        {
             "src": "/(.*)",
-            "dest": "studygate/wsgi.py"
+            "dest": "poll/wsgi.py"
         }
     ]
 }
